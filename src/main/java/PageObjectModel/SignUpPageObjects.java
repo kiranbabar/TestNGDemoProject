@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class SignUpPageObjects  {
-
+//this line is given change into the project.
 	public WebDriver driver;
 private By FirstName=By.xpath("//input[@name='UserFirstName']");
 private By  LastName=By.xpath("//input[@name='UserLastName']");

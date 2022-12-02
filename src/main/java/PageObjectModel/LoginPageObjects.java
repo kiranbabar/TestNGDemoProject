@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class LoginPageObjects {
 public WebDriver driver;
-//this driver dont have scope 
+//this driver dont have scope ,there is need to give scope to this driver
 //here we achieve encapsulation
 private By username=By.xpath("//input[@id='username']");
 private By password=By.xpath("//input[@id='password']");
